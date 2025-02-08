@@ -1,0 +1,8 @@
+dependencies:
+  - name: reportportal
+    version: 3.8.4
+    repository: https://reportportal.io/kubernetes
+    chart: reportportal
+name: reportportal-wrapper
+version: 3.8.4
+

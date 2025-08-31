@@ -6,7 +6,7 @@ metadata:
 resources:
 #  - ./stage/hot-flows/billing/cronjob.yaml
 configMapGenerator:
-  - name: common-values-default
+  - name: common-values-default2
     namespace: default
     files:
       - values.yaml=configmaps/common-values.yaml
